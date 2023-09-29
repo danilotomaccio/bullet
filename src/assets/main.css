@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("./theme.css");
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --my-brand-font: 'Open Sans';
+    --my-headline-font: 'Montserrat';
+    --my-title-font: 'Montserrat';
+    --my-plain-font: system-ui;
+  
+    --md-ref-typeface-brand: var(--my-brand-font);
+    --md-ref-typeface-plain: var(--my-plain-font);
+  
+    --md-sys-typescale-headline-font: var(--my-headline-font);
+    --md-sys-typescale-title-font: var(--my-title-font);
+
+    --md-sys-typescale-title-large-font-family-name: var(--my-title-font);
+
+    background-color: var(--md-sys-color-background);
+  }
+

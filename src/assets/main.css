@@ -24,5 +24,6 @@ html, body {
     --md-sys-typescale-title-large-font-family-name: var(--my-title-font);
 
     background-color: var(--md-sys-color-background);
+    color: var(--md-sys-color-on-background);
   }
 

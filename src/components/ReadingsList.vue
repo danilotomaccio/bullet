@@ -32,6 +32,7 @@ const { readings } = storeToRefs(store);
     overflow: scroll;
 
     background-color: var(--md-sys-color-primary-container);
+    color: var(--md-sys-color-on-primary-container);
     border-radius: 28px;
 
     position: relative;

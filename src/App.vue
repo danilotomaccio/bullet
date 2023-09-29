@@ -17,7 +17,7 @@ import ReadingsList from "./components/ReadingsList.vue";
 <style scoped>
 .main {
   width: 100vw;
-  height: 100vh;
+  height: 95vh;
 
   display: flex;
   flex-direction: column;

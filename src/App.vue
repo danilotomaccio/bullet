@@ -2,12 +2,14 @@
 import AppSettings from "./components/AppSettings.vue";
 import DeviceConnection from "./components/DeviceConnection.vue";
 import DisplaySpeed from "./components/DisplaySpeed.vue";
+import ReadingsList from "./components/ReadingsList.vue";
 </script>
 
 <template>
   <div class="main">
-    <DisplaySpeed />
     <AppSettings />
+    <DisplaySpeed />
+    <ReadingsList />
     <DeviceConnection />
   </div>
 </template>

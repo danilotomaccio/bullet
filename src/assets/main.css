@@ -7,16 +7,19 @@ html, body {
 }
 
 :root {
-    --my-brand-font: 'Open Sans';
+    font-family: 'Montserrat';
     --my-headline-font: 'Montserrat';
     --my-title-font: 'Montserrat';
     --my-plain-font: system-ui;
+    --md-icon-font: 'Material Symbols Outlined';
   
     --md-ref-typeface-brand: var(--my-brand-font);
     --md-ref-typeface-plain: var(--my-plain-font);
-  
+    
     --md-sys-typescale-headline-font: var(--my-headline-font);
+    --md-sys-typescale-headline-small-font: var(--my-headline-font);
     --md-sys-typescale-title-font: var(--my-title-font);
+    --md-sys-typescale-body-medium-font: var(--my-plain-font);
 
     --md-sys-typescale-title-large-font-family-name: var(--my-title-font);
 

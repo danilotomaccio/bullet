@@ -100,6 +100,7 @@ function handleSensorCharacteristicValueChanged(event: any): void {
   const value = event.target.value;
   const data = new TextDecoder().decode(value);
   store.receivedValue = data;
+  store.readings.unshift(data);
   // emits('onReceivedData', data);
 }
 

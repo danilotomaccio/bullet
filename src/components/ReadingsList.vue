@@ -28,7 +28,7 @@ const { readings } = storeToRefs(store);
 <style scoped>
 #readingsList {
     height: 50%;
-    width: 40%;
+    width: 50%;
     overflow: scroll;
 
     background-color: var(--md-sys-color-primary-container);

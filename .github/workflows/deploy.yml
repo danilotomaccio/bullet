@@ -1,0 +1,27 @@
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Install and Build 🔧 
+        run: |
+          npm ci
+          npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.4.2
+        with:
+          branch: main
+          folder: dist
+          clean: true
+          commit-message: Deploy updates
+          repository-name: danilotomaccio/ballisticChronograph
+          token: ${{ secrets.DEPLOY_TOKEN }}

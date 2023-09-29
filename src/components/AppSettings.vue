@@ -53,8 +53,8 @@ const menu = ref<any>();
 <style scoped>
 #settings {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 4px;
+    right: 4px;
 }
 
 #menuContainer {
